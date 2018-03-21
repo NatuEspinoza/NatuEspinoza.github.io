@@ -45,6 +45,10 @@ CONTENTS:
 01. General
 ============================================================ */
 
+a {
+	text-decoration: none;
+}
+
 div, article, section, header, footer, nav, li {
 	position:relative;
 }
@@ -1300,7 +1304,7 @@ i.icon-white {
 	box-shadow: none;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
-  background-color: #545454;
+  background-color: #f36f36;
   border-color: none;
   *background-color: #545454;
   background-image: none;
