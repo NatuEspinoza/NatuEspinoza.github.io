@@ -483,6 +483,10 @@ section.spacer {
 	background:#1bac91;
 }
 
+.spacer.green,.section.green {
+	background:#1bac91;
+}
+
 .spacer.green,.section.green h4 {
 	color:#fff;
 }
@@ -1709,4 +1713,52 @@ i.icon-white {
 	#contact-form input[type=submit] {
 		width: 100%;
 	}
+}
+
+.portada-miviaje {
+	background-image: url(../img/icons/miviaje.jpg);
+	height: 500px;
+	width:100%;
+	background-size: cover;
+}
+
+.portada-progress {
+	background-image: url(../img/icons/progress.png);
+	height: 500px;
+	width:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.portada-mi-pais {
+	background-image: url(../img/icons/mipais.png);
+	height: 500px;
+	width:100%;
+	background-size: cover;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.portada-miviaje {
+ 	 background-image: url(../img/icons/miviaje-cel.jpg);
+ 	 height: 500px;
+ 	 width:100%;
+  }
+	.portada-progress {
+		background-image: url(../img/icons/progress-cel.png);
+		height: 500px;
+		width:100%;
+		background-size: cover;
+	}
+}
+
+.icon-in {
+	background-image: url(../img/linkedin.png);
+	width: 100%;
+	height: 100px;
+}
+
+a  {
+	text-decoration: none;
 }
