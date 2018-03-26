@@ -192,7 +192,7 @@ a {
 }
 
 a:hover, a:active {
-	text-decoration: underline;
+	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
@@ -495,7 +495,7 @@ section.spacer {
 	background:#ffe873;
 }
 .spacer.orange,.section.orange {
-	background:#f36f36;
+	background:#a20b41;
 }
 
 section.spacer.bg2 {
@@ -763,7 +763,7 @@ section#services .service-box h2 {
 }
 
 section#services.section.orange .service-box:hover {
-	background:#f36518;
+	background:#1bac91;
 }
 
 
@@ -1308,7 +1308,7 @@ i.icon-white {
 	box-shadow: none;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
-  background-color: #f36f36;
+  background-color: #a20b41;
   border-color: none;
   *background-color: #545454;
   background-image: none;
