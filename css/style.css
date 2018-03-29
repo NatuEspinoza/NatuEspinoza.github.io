@@ -1762,3 +1762,16 @@ and (max-device-width : 480px) {
 a  {
 	text-decoration: none;
 }
+
+.fa-envelope:hover, .fa-mobile-alt:hover, .fa-linkedin:hover {
+	color:rgb(19, 69, 70);
+}
+
+.mail, .movil, .linkedin {
+	color: #FFF;
+}
+
+.mail:hover, .movil:hover, .linkedin:hover {
+	color:rgb(19, 69, 70);
+	font-weight: bold;
+}
