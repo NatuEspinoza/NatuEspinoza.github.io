@@ -457,6 +457,7 @@ section.section h4 {
 	font-size: 46px;
 	font-weight: 700;
 	letter-spacing: -1px;
+	color: #065657;
 }
 section.inner {
 	padding: 50px 0 50px;
@@ -480,11 +481,11 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:#065657;
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:#065657;
 }
 
 .spacer.green,.section.green h4 {
@@ -495,7 +496,7 @@ section.spacer {
 	background:#ffe873;
 }
 .spacer.orange,.section.orange {
-	background:#a20b41;
+	background:#065657;
 }
 
 section.spacer.bg2 {
@@ -518,7 +519,7 @@ section.spacer blockquote.large:before {
 }
 
 section.spacer blockquote cite {
-	color:#555;
+	color:#eee;
 }
 
 
@@ -1308,7 +1309,7 @@ i.icon-white {
 	box-shadow: none;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
-  background-color: #a20b41;
+  background-color: #065657;
   border-color: none;
   *background-color: #545454;
   background-image: none;
@@ -1322,7 +1323,7 @@ i.icon-white {
 	color: #fff;
 }
 .btn:hover {
-	background: #333 !important;
+	background: #022829 !important;
 }
 .btn:hover,
 .btn:focus,
@@ -1764,7 +1765,7 @@ a  {
 }
 
 .fa-envelope:hover, .fa-mobile-alt:hover, .fa-linkedin:hover {
-	color:rgb(19, 69, 70);
+	color:#1bac91;
 }
 
 .mail, .movil, .linkedin {
@@ -1772,6 +1773,9 @@ a  {
 }
 
 .mail:hover, .movil:hover, .linkedin:hover {
-	color:rgb(19, 69, 70);
+	color:#1bac91;
 	font-weight: bold;
+}
+ul#menu-main > li > a:focus, ul#menu-main > li > a:active, ul#menu-main > li > a.selected, ul#menu-main li a.selected:active {
+	color: #065657;
 }
