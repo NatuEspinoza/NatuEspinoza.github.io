@@ -1752,6 +1752,9 @@ and (max-device-width : 480px) {
 		width:100%;
 		background-size: cover;
 	}
+	.frames iframe {
+		width: 100%;
+	}
 }
 
 .icon-in {
@@ -1778,4 +1781,9 @@ a  {
 }
 ul#menu-main > li > a:focus, ul#menu-main > li > a:active, ul#menu-main > li > a.selected, ul#menu-main li a.selected:active {
 	color: #065657;
+}
+
+.frames iframe {
+	width: 33%;
+	border: none;
 }
